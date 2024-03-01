@@ -1,0 +1,6 @@
+
+
+	No		id		average		rank
+student 1	23		170.8		1
+student 2	56		84		2
+student 3	67		75.4		3

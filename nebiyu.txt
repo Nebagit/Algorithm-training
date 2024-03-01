@@ -1,0 +1,13 @@
+45 56
+0  35
+63 37
+# those should add up to 100
+
+# these should add up to 5
+0 5 
+5 0
+
+1 4
+3 2
+
+10 -5

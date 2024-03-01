@@ -1,0 +1,77 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>30</x><y>130</y><w>170</w><h>150</h></coordinates><panel_attributes>View Transaction
+--
+- interval: String
+- expenseList: ArrayList
+- incomeList: ArrayList
+--
++ viewTransaction()
++ generateTransaction()
+
+bg=green
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>420</y><w>170</w><h>190</h></coordinates><panel_attributes>Expense_Plan
+--
+- id: int
+- name: String
+- price: float
+- quantity: int
+- description: String
+--
++ addWishList()
++ updateWishList()
++ deleteWishList()
++ viewWishList()
+bg=pink
+
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Expense
+--
+- expense_id: int
+- name: String
+- price: float
+- amount: int
+- inserted_date: Date
+-description: String
+--
++ insertExpense()
++ updateExpense()
++deleteExpense()
++viewExpense()
+bg=blue
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>200</y><w>210</w><h>190</h></coordinates><panel_attributes>Student
+--
+- id: int
+- name: String
+- password: String
+- recovery_text: String
+--
++ addUser()
++ updateUser()
++ validateUser()
+bg=red
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>120</y><w>170</w><h>190</h></coordinates><panel_attributes>Income( Fund )
+--
+- income_id: int
+- name: String
+- price: float
+- inserted_date: Date
+- description: String
+--
++ insert_fund()
++ update_fund()
++ delete_fund()
+bg=yellow
++ view_fund
+
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>190</y><w>190</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+Saves 
+
+group=group-0</panel_attributes><additional_attributes>170;10;90;10;90;80;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>310</y><w>170</w><h>210</h></coordinates><panel_attributes>lt=&lt;-
+Inserts
+group=group-0</panel_attributes><additional_attributes>150;190;60;190;60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>380</y><w>240</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+Saves
+group=group-0</panel_attributes><additional_attributes>10;180;220;180;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>200</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+View
+group=group-0</panel_attributes><additional_attributes>10;10;70;10;70;80;130;80</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>120</y><w>530</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Uses
+group=group-0</panel_attributes><additional_attributes>10;20;510;20</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>270</y><w>60</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+Uses
+group=group-0</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>
